@@ -12,10 +12,10 @@ export default function App() {
     <View style={styles.container}>
       <Image style={[StyleSheet.absoluteFill, styles.image]} source={{ uri }} />
 
-      <BlurView intensity={80} tint="light" style={styles.blurContainer}>
+      <BlurView intensity={50} tint="light" style={styles.blurContainer}>
         <Text style={styles.text}>{text}</Text>
       </BlurView>
-      <BlurView intensity={90} style={styles.blurContainer}>
+      <BlurView intensity={75} style={styles.blurContainer}>
         <Text style={styles.text}>{text}</Text>
       </BlurView>
       <BlurView intensity={100} tint="dark" style={styles.blurContainer}>
